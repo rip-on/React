@@ -25,3 +25,17 @@
   font-family: serif;
   color: hsl(0, 0%, 0.336);
 }
+
+
+/* FOR STUDENT */
+
+.student{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid hsla(0, 1%, 50%, 0.808);
+
+}
+.student p{
+  margin: 0;
+}
