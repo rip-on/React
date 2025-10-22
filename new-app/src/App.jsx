@@ -1,5 +1,6 @@
-import Card from './Card.jsx'
-import Student from './Student.jsx'
+import Card from './Card.jsx';
+import Student from './Student.jsx';
+import UserGreeting from './UserGreeting.jsx';
 
 function App() {
  
@@ -17,6 +18,10 @@ function App() {
     <Student name="Patrick" age={50} isStudent={false} address="New York"/>
     <Student name="Sandy" age={25} isStudent={true} address="LA"/>
     <Student name="Shipon" age={13} isStudent={true} address="TusharDhara"/>
+    <Student/>
+    <Student/>
+    <UserGreeting isLoggedIn={true} username="Ripon"/>
+    <UserGreeting/>
     </>
   )
 }

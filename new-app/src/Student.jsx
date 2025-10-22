@@ -6,7 +6,15 @@
 /*PropTypes = a mechanism that ensures that the passed value is of the correct datatype.
 age: PropTypes.number */
 
-import PropTypes from 'prop-types'
+
+/*defaultProps = default values for props in case they are not passed from the parent component
+name: "Guest" */
+
+/*Conditional rendering = allows you to control what gets rendered in your application based on certain conditions (show, hide, or change components) */
+
+
+
+import PropTypes from "prop-types"
 
 function Student(props){
     return(
@@ -24,6 +32,14 @@ Student.propTypes = {
     name: PropTypes.string,
     age: PropTypes.number,
     isStudent: PropTypes.bool,
+    address: PropTypes.string,
+}
+
+Student.defaultProps = {
+    name: "Guest",
+    age: 0,
+    isStudent: false,
+    address: "Dhaka",
 }
 
 export default Student
