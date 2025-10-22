@@ -1,6 +1,7 @@
 import Card from './Card.jsx';
 import Student from './Student.jsx';
 import UserGreeting from './UserGreeting.jsx';
+import List from './List.jsx'
 
 function App() {
  
@@ -22,6 +23,7 @@ function App() {
     <Student/>
     <UserGreeting isLoggedIn={true} username="Ripon"/>
     <UserGreeting/>
+    <List/>
     </>
   )
 }
