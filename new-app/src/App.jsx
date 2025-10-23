@@ -1,9 +1,30 @@
 import Card from './Card.jsx';
 import Student from './Student.jsx';
 import UserGreeting from './UserGreeting.jsx';
-import List from './List.jsx'
+import Food from './Food.jsx'
+import Listing from './Listing.jsx'
+import Button from './Button.jsx'
 
 function App() {
+
+
+  //Listing
+
+  const fruits = [{id: 1, name: "Apple", calories: "apple"},
+                  {id: 2, name: "Orange", calories: 45},
+                  {id: 3, name: "Banana", calories: 105},
+                  {id: 4, name: "Coconut", calories: 159},
+                  {id: 5, name: "Pineapple", calories: 37}];
+  
+  const vegetables = [{id:6, name: "Potatoes", calories: 55},
+                       {id:7, name: "Celery", calories: 45},
+                       {id: 8, name: "Broccoli", calories: 84},
+                       {id: 9, name: "Corn", calories: 54},
+                       {id: 10, name: "carrots", calories: 53}]
+
+
+  
+  
  
   return (
     <>
@@ -23,7 +44,11 @@ function App() {
     <Student/>
     <UserGreeting isLoggedIn={true} username="Ripon"/>
     <UserGreeting/>
-    <List/>
+    <Food/>
+    {fruits.length > 0 && <Listing items={fruits} category="Fruits"/>}
+    {fruits.length > 0 && <Listing items={vegetables} category="Vegetables"/>}
+    {fruits.length > 0 ? <Listing items={fruits} category="Fruits"/> : null}
+    <Button/>
     </>
   )
 }

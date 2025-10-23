@@ -1,6 +1,6 @@
 
 
-function List(){
+function Food(){
 
     const fruits = [{id:1, name: "apple", calories: 95},
                     {id:2, name: "pineapple", calories: 37},
@@ -29,4 +29,4 @@ function List(){
     );
 }
 
-export default List
+export default Food
