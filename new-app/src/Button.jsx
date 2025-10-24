@@ -18,7 +18,7 @@ function Button(){
         }
     }
 
-    const eventClick = (e) => e.target.textContet = "OUCH!!🤨"//console.log(e);
+    const eventClick = (e) => e.target.textContent = "OUCH!!🤨"//console.log(e);
     return(<>
     <button onClick={handleClick}>Click Here 😾</button>
     <button onClick={() => handleClick2("JAHID")}>Click2</button>

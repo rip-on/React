@@ -82,3 +82,34 @@
   color: hsl(0, 0%, 60%);
   cursor: pointer;
 }
+
+/*Counter*/
+
+.container{
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border: 1.5px solid darkorange;
+}
+
+.msg{
+  font-size: 80px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.btn{
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  background-color: hsl(180, 94%, 48%);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 50px 5px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: hsl(180, 94%, 38%) ;
+}

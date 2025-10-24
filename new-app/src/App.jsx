@@ -4,6 +4,9 @@ import UserGreeting from './UserGreeting.jsx';
 import Food from './Food.jsx'
 import Listing from './Listing.jsx'
 import Button from './Button.jsx'
+import Profile from './ProfilePicture.jsx'
+import MyComponent from './MyComponent.jsx';
+import Counter from './Counter.jsx';
 
 function App() {
 
@@ -49,6 +52,9 @@ function App() {
     {fruits.length > 0 && <Listing items={vegetables} category="Vegetables"/>}
     {fruits.length > 0 ? <Listing items={fruits} category="Fruits"/> : null}
     <Button/>
+    <Profile/>
+    <MyComponent/>
+    <Counter/>
     </>
   )
 }
