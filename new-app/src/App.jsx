@@ -7,6 +7,8 @@ import Button from './Button.jsx'
 import Profile from './ProfilePicture.jsx'
 import MyComponent from './MyComponent.jsx';
 import Counter from './Counter.jsx';
+import TakeInput from './Input.jsx'; //a react component should be an UPPERCASE
+import Color from './Color.jsx'
 
 function App() {
 
@@ -55,6 +57,8 @@ function App() {
     <Profile/>
     <MyComponent/>
     <Counter/>
+    <TakeInput/>
+    <Color/>
     </>
   )
 }
