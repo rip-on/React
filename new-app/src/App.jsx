@@ -9,6 +9,8 @@ import MyComponent from './MyComponent.jsx';
 import Counter from './Counter.jsx';
 import TakeInput from './Input.jsx'; //a react component should be an UPPERCASE
 import Color from './Color.jsx'
+import CountUpdate  from './CountUpdate.jsx';
+import Car from './Car.jsx';
 
 function App() {
 
@@ -59,6 +61,8 @@ function App() {
     <Counter/>
     <TakeInput/>
     <Color/>
+    <CountUpdate/>
+    <Car/>
     </>
   )
 }
