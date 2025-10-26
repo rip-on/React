@@ -11,6 +11,8 @@ import TakeInput from './Input.jsx'; //a react component should be an UPPERCASE
 import Color from './Color.jsx'
 import CountUpdate  from './CountUpdate.jsx';
 import Car from './Car.jsx';
+import AddItem from './AddItem.jsx';
+
 
 function App() {
 
@@ -63,6 +65,7 @@ function App() {
     <Color/>
     <CountUpdate/>
     <Car/>
+    <AddItem/>
     </>
   )
 }
