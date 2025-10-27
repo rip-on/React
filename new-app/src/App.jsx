@@ -12,7 +12,7 @@ import Color from './Color.jsx'
 import CountUpdate  from './CountUpdate.jsx';
 import Car from './Car.jsx';
 import AddItem from './AddItem.jsx';
-
+import CarUpdate from './CarUpdate.jsx';
 
 function App() {
 
@@ -66,6 +66,7 @@ function App() {
     <CountUpdate/>
     <Car/>
     <AddItem/>
+    <CarUpdate/>
     </>
   )
 }
