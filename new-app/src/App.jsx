@@ -13,6 +13,7 @@ import CountUpdate  from './CountUpdate.jsx';
 import Car from './Car.jsx';
 import AddItem from './AddItem.jsx';
 import CarUpdate from './CarUpdate.jsx';
+import ToDo from './ToDo.jsx';
 
 function App() {
 
@@ -67,6 +68,7 @@ function App() {
     <Car/>
     <AddItem/>
     <CarUpdate/>
+    <ToDo/>
     </>
   )
 }
