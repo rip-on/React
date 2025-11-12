@@ -241,3 +241,15 @@ li{
   font-size: 1.2rem;
   margin-left: 10px;
 }
+
+/*CLOCK*/
+.clock{
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(50px);
+  background-color: rgb(209, 178, 178);
+  color: white;
+  font-size: 3rem;
+}

@@ -16,6 +16,7 @@ import CarUpdate from './CarUpdate.jsx';
 import ToDo from './ToDo.jsx';
 import Counting from './UseEffect.jsx';
 import Resize from './ResizeWH.jsx';
+import DigitalClock from './DigitalClock.jsx'
 
 function App() {
 
@@ -73,6 +74,7 @@ function App() {
     <ToDo/>
     <Counting/>
     <Resize/>
+    <DigitalClock/>
     </>
   )
 }
