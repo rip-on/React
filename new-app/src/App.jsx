@@ -17,6 +17,10 @@ import ToDo from './ToDo.jsx';
 import Counting from './UseEffect.jsx';
 import Resize from './ResizeWH.jsx';
 import DigitalClock from './DigitalClock.jsx'
+import ComponentA from './componentA.jsx';
+import Ref from './Ref.jsx'
+import Ref2 from './Ref2.jsx'
+
 
 function App() {
 
@@ -75,6 +79,9 @@ function App() {
     <Counting/>
     <Resize/>
     <DigitalClock/>
+    <ComponentA/>
+    <Ref/>
+    <Ref2/>
     </>
   )
 }

@@ -253,3 +253,12 @@ li{
   color: white;
   font-size: 3rem;
 }
+
+
+/*ComponentA,B,C,D*/
+
+.boxA{
+  border: 3px solid black;
+  color: black;
+  padding: 25px;
+}
