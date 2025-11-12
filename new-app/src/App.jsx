@@ -14,6 +14,7 @@ import Car from './Car.jsx';
 import AddItem from './AddItem.jsx';
 import CarUpdate from './CarUpdate.jsx';
 import ToDo from './ToDo.jsx';
+import Counting from './UseEffect.jsx';
 
 function App() {
 
@@ -69,6 +70,7 @@ function App() {
     <AddItem/>
     <CarUpdate/>
     <ToDo/>
+    <Counting/>
     </>
   )
 }

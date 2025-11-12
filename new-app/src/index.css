@@ -177,11 +177,12 @@ button{
   font-size: 1.3rem;
   font-weight: bold;
   padding: 10px 20px;
-  color: white;
+  color: rgb(167, 137, 137);
   border: none;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.5s ease;
+  border: black 3px solid;
 
 }
 
