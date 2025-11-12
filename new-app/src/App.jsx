@@ -15,6 +15,7 @@ import AddItem from './AddItem.jsx';
 import CarUpdate from './CarUpdate.jsx';
 import ToDo from './ToDo.jsx';
 import Counting from './UseEffect.jsx';
+import Resize from './ResizeWH.jsx';
 
 function App() {
 
@@ -71,6 +72,7 @@ function App() {
     <CarUpdate/>
     <ToDo/>
     <Counting/>
+    <Resize/>
     </>
   )
 }
