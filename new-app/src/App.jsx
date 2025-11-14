@@ -20,7 +20,7 @@ import DigitalClock from './DigitalClock.jsx'
 import ComponentA from './componentA.jsx';
 import Ref from './Ref.jsx'
 import Ref2 from './Ref2.jsx'
-
+import StopWatch from './StopWatch.jsx';
 
 function App() {
 
@@ -82,6 +82,7 @@ function App() {
     <ComponentA/>
     <Ref/>
     <Ref2/>
+    <StopWatch/>
     </>
   )
 }
